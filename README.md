@@ -12,7 +12,7 @@ League of Legends is a multiplayer online battle arena (MOBA) game that has been
 
 There are around 10,000 different games recorded within the data set. The original data set contained information for both teams, however for this specific project I decided to just focus on the blue side. The entire data set was numeric and there were no missing values that needed to be dealt with. 
 
-## Methodology
+## Clustering Methodology
 
 Initial EDA was applied to the data set. Once a cleaner data set was obtained, four (4) clustering algorithms were created to separate and group the data. Three (3) dimensionality reduction methods were applied to each clustering algorithm and the silhouette score was calculated to determine the best algorithm and best dimensionality reduction method.
 
@@ -42,3 +42,7 @@ Scatterplots were created for each of the dimensionality reduction methods when 
 ![Plot](tsne.png)
 
 ![Plot](umap.png)
+
+Comparing the plots, we see PCA did a much worse job of separating the data. UMAP and t-SNE did a good job of splitting and grouping the observations, but just by eyeballing the scatter plots it was difficult to determine which method was better. Therefore, the Silhouette Score for each clustering algorithm was calculated to have a better understanding.
+
+### Results
