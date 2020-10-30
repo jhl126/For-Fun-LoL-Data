@@ -16,11 +16,29 @@ There are around 10,000 different games recorded within the data set. The origin
 
 Initial EDA was applied to the data set. Once a cleaner data set was obtained, four (4) clustering algorithms were created to separate and group the data. Three (3) dimensionality reduction methods were applied to each clustering algorithm and the silhouette score was calculated to determine the best algorithm and best dimensionality reduction method.
 
+### Dimensionality Reduction Methods
+
+* Principal Component Analysis (PCA)
+* T-Distributed Stochastic Neighbor Embedding (t-SNE)
+* Uniform Manifold Approximation and Projection (UMAP)
+
 ### Clustering Methods
 
-#### KMeans
+* KMeans
+* DBSCAN
+* Agglomerative Clustering
+* Gaussian Mixture Model
 
-The K value was the hyperparemeter tuned for this algorithm. K values of 3-10 were used decide the most accurate amount of clusters. PCA, t-SNE, and UMAP were applied to each cluster, and the silhouette scores were calculated. 
+### Comapring Dimensionality Reduction Methods 
 
-#### DBSCAN
+In order to determine the number of componentes used for PCA, the cumulative sum was calculated. I chose to have a sum of around 0.9 which equates to the features having 90% variance. As a result, nine (9) of the fifteen (15) features were chosen and thus explains why n_components = 9. 
 
+When using t-SNE on the data, I chose to take a more global approach. This is the reasoning behind why perplexity = 50. This was also the case for when UMAP was applied to the data and explains why n_neighbors = 20. 
+
+Scatterplots were created for each of the dimensionality reduction methods when applied to the data to visualize how the observations were split up. 
+
+![Plot](pca.png)
+
+![Plot](tsne.png)
+
+![Plot](umap.png)
