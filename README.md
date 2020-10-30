@@ -141,3 +141,15 @@ The cluster analysis will be based off of DBSCAN with UMAP clustering using an e
 The data was split into 12 clusters:
 
 ![ClusterSizes](clusters.png)
+
+Five features were then plotted by clusters to look for a pattern:
+
+![Elite Monsters Killed](elite.png)
+
+![First Rift Heralds](firstrift.png)
+
+![First Dragon Killed](firstdrag.png)
+
+![First Blood](firstblood.png)
+
+![Total Wins](wins.png)
