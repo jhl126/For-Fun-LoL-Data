@@ -159,3 +159,4 @@ Five features were then plotted by clusters to look for a pattern:
 * Based off of the Total Wins chart, only losses were grouped into this cluster
 * This cluster consisted of games where the blue team had gotten first blood every game
 * This cluster also consists of games where the blue team never got the first dragon or rift herald
+* This cluster of games also did not kill any elite monsters
