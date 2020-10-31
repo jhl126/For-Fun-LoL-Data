@@ -156,7 +156,41 @@ Five features were then plotted by clusters to look for a pattern:
 
 #### Cluster 0 Features:
 
-* Based off of the Total Wins chart, only losses were grouped into this cluster
-* This cluster consisted of games where the blue team had gotten first blood every game
-* This cluster also consists of games where the blue team never got the first dragon or rift herald
-* This cluster of games also did not kill any elite monsters
+* Only losses were grouped into this cluster
+* Gotten first blood every game
+* never got the first dragon or rift herald
+* Did not kill any elite monsters
+
+#### Cluster 1 Features: 
+
+* Largest cluster size
+* Majority of games were losses
+* Little to no first bloods
+* Very rarely killed first dragon
+* Never killed first herald
+* Barely killed any elite monsters
+
+#### Cluster 2 Features:
+
+* Also only consists of losses
+* No first bloods in any game
+* Killed first dragon every game
+* Did not kill rift herald in any game
+* Every game consists of one(1) elite monster killed
+
+#### Cluster 3 Features:
+* Split evenly between wins and losses
+* Once again split evenly between obtaining first blood and giving up first blood
+* Never got first dragon in any game
+* Got first rift herald in every game
+* Every game killed one(1) elite monster
+
+#### Cluster 4 Features:
+* Every game was a win
+* Every game gave up first blood
+* Every game consists of killing first dragon
+* Never got rift herald first
+* Every game killed one(1) elite monster
+
+#### Cluster 5 Features:
+
