@@ -1,6 +1,6 @@
 # Having Fun with a League of Legends Data Set
 
-I decided to mix data science with a small hobby of mine and create a side project dedicated to applying clustering and predictive modeling on a League of Legends data set. The data set consists of in game statistics from the first 10 minutes of high-elo ranked games (high-elo meaning Diamond 1 to Master tier) and can be located at [This Kaggle Link](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min).
+I decided to mix data science with a small hobby of mine and create a side project dedicated to applying clustering and classification modeling on a League of Legends data set. The data set consists of in game statistics from the first 10 minutes of high-elo ranked games (high-elo meaning Diamond 1 to Master tier) and can be located at [This Kaggle Link](https://www.kaggle.com/bobbyscience/league-of-legends-diamond-ranked-games-10-min).
 
 ## About League of Legends
 
@@ -194,3 +194,4 @@ Five features were then plotted by clusters to look for a pattern:
 
 #### Cluster 5 Features:
 
+**To be continued...**
